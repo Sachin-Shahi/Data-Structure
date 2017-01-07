@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Cnn Client on Chrome Browser" duration-ms="22819" started-at="2017-01-07T19:59:07Z" finished-at="2017-01-07T19:59:30Z">
+    <groups>
+    </groups>
+    <test name="Cnn Home Page" duration-ms="22819" started-at="2017-01-07T19:59:07Z" finished-at="2017-01-07T19:59:30Z">
+      <class name="home.TestCnnHome">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestCnnHome@7a0ac6e3]" name="setUp" is-config="true" duration-ms="16165" started-at="2017-01-07T14:59:07Z" finished-at="2017-01-07T14:59:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dagr8don]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bf0d9603-7205-46de-9abf-e30f21916130]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.cnn.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testHome()[pri:0, instance:home.TestCnnHome@7a0ac6e3]" name="testHome" duration-ms="6177" started-at="2017-01-07T14:59:24Z" finished-at="2017-01-07T14:59:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHome -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:home.TestCnnHome@7a0ac6e3]" name="tearDown" is-config="true" duration-ms="385" started-at="2017-01-07T14:59:30Z" finished-at="2017-01-07T14:59:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- home.TestCnnHome -->
+    </test> <!-- Cnn Home Page -->
+  </suite> <!-- Cnn Client on Chrome Browser -->
+</testng-results>

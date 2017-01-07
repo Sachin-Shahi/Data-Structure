@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Potbelly Client on Chrome Browser]">
+  <parameter name="useCloudEnv" value="true"/>
+  <parameter name="os" value="Mac"/>
+  <parameter name="accessKey" value="bf0d9603-7205-46de-9abf-e30f21916130"/>
+  <parameter name="browserVersion" value="50"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="userName" value="dagr8don"/>
+  <parameter name="url" value="http://www.cnn.com/"/>
+  <test name="Cnn Home Page(failed)">
+    <classes>
+      <class name="home.TestCnnHome">
+        <methods>
+          <include name="testHome"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- home.TestCnnHome -->
+    </classes>
+  </test> <!-- Cnn Home Page(failed) -->
+</suite> <!-- Failed suite [Potbelly Client on Chrome Browser] -->
